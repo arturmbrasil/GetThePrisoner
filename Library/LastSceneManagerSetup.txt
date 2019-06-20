@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Projeto/Scenes/SampleScene.unity
+- path: Assets/Projeto/Scenes/SegundaFase.unity
   isLoaded: 1
   isActive: 1
