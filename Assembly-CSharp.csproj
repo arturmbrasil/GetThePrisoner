@@ -58,13 +58,17 @@
      <Compile Include="Assets\Projeto\Scripts\ControlePlayer2.cs" />
      <Compile Include="Assets\Projeto\Scripts\IniciarGame.cs" />
      <Compile Include="Assets\Projeto\Scripts\PersonagemIA.cs" />
+     <Compile Include="Assets\SpriteGlow\SpriteGlowEffect.cs" />
+     <Compile Include="Assets\SpriteGlow\SpriteGlowMaterial.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\RoboHero\Scripts\Hero.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\Rule Tiles\Scripts\RuleTile.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\Scripts\BasicCameraFollow.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\Scripts\CameraManager.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\Scripts\HeroMover.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Xtras\Custom Canvas Scaler\CustomCanvasScaler.cs" />
+     <None Include="Assets\SpriteGlow\SpriteOutline.shader" />
      <None Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\Fonts\LICENSE.txt" />
+     <None Include="Assets\SpriteGlow\LICENSE.txt" />
  <Reference Include="Unity.2D.PixelPerfect.Editor">
  <HintPath>/Users/arturbrasil/Desktop/projeto-jogos/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
  </Reference>
@@ -275,14 +279,14 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>/Users/arturbrasil/Desktop/projeto-jogos/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Users/arturbrasil/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/arturbrasil/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>/Users/arturbrasil/Desktop/projeto-jogos/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
