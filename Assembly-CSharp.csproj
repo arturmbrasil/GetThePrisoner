@@ -58,6 +58,7 @@
      <Compile Include="Assets\Projeto\Scripts\ControlePlayer2.cs" />
      <Compile Include="Assets\Projeto\Scripts\IniciarGame.cs" />
      <Compile Include="Assets\Projeto\Scripts\PersonagemIA.cs" />
+     <Compile Include="Assets\Projeto\Scripts\SelecaoBandido.cs" />
      <Compile Include="Assets\SpriteGlow\SpriteGlowEffect.cs" />
      <Compile Include="Assets\SpriteGlow\SpriteGlowMaterial.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\RoboHero\Scripts\Hero.cs" />
