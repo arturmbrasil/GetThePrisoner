@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Projeto\Scripts\Camera2D.cs" />
+     <Compile Include="Assets\Projeto\Scripts\ControleFase.cs" />
      <Compile Include="Assets\Projeto\Scripts\ControlePersonagem.cs" />
      <Compile Include="Assets\Projeto\Scripts\ControlePlayer2.cs" />
      <Compile Include="Assets\Projeto\Scripts\IniciarGame.cs" />
