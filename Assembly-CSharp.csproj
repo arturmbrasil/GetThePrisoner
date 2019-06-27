@@ -57,6 +57,7 @@
      <Compile Include="Assets\Projeto\Scripts\ControlePersonagem.cs" />
      <Compile Include="Assets\Projeto\Scripts\ControlePlayer2.cs" />
      <Compile Include="Assets\Projeto\Scripts\IniciarGame.cs" />
+     <Compile Include="Assets\Projeto\Scripts\PersonagemIA.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\RoboHero\Scripts\Hero.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\Rule Tiles\Scripts\RuleTile.cs" />
      <Compile Include="Assets\Unity Technologies\2D Pixel Perfect\Samples\Scripts\BasicCameraFollow.cs" />
