@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Projeto/Scenes/Inicio.unity
+    guid: 89b4f9fa38793e44d881abfb2f7aa771
+  - enabled: 1
+    path: Assets/Projeto/Scenes/SelecaoBandido.unity
+    guid: c440a09e82ae1c746a4c122a7e264834
+  - enabled: 1
+    path: Assets/Projeto/Scenes/PrimeiraFase.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Projeto/Scenes/SegundaFase.unity
+    guid: ebbe752c7b4708541a57c8e8856fe157
+  - enabled: 1
+    path: Assets/Projeto/Scenes/BandidoFugiu.unity
+    guid: 9a865acefe4ab934d87e0dd045e4962d
+  - enabled: 1
+    path: Assets/Projeto/Scenes/CapturaBandido.unity
+    guid: af5d94b680c40b641a1e6c71cf2edfed
   m_configObjects: {}
