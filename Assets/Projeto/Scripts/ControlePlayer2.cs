@@ -7,7 +7,6 @@ public class ControlePlayer2 : MonoBehaviour {
 private Rigidbody2D rb;
     public float velocidade;
 	private Animator anim;
-	private string ultimaAnimacao;
 	private bool movendo;
 	private bool estavaMovendoVertical = false, estavaMovendoHorizontal = false;
 	Vector2 ultimoMovimento;
@@ -40,14 +39,12 @@ private Rigidbody2D rb;
 				rb.velocity = new Vector2(horizontal * currentMoveSpeed, 0);
 				ultimoMovimento = new Vector2(horizontal, 0f);
 
-				if (horizontal > 0 && ultimaAnimacao != "direita")
+				if (horizontal > 0)
 				{
-					ultimaAnimacao = "direita";
 					anim.SetTrigger("direita");
 				}
-				else if (horizontal < 0 && ultimaAnimacao != "esquerda")
+				else if (horizontal < 0 )
 				{
-					ultimaAnimacao = "esquerda";
 					anim.SetTrigger("esquerda");
 				}
 			}
@@ -56,14 +53,12 @@ private Rigidbody2D rb;
 				rb.velocity = new Vector2(0, vertical * currentMoveSpeed);
 				ultimoMovimento = new Vector2(0f, vertical);
 
-				if (vertical > 0 && ultimaAnimacao != "cima")
+				if (vertical > 0)
 				{
-					ultimaAnimacao = "cima";
 					anim.SetTrigger("cima");
 				}
-				else if (vertical < 0 && ultimaAnimacao != "baixo")
+				else if (vertical < 0)
 				{
-					ultimaAnimacao = "baixo";
 					anim.SetTrigger("baixo");
 				}
 			}
@@ -76,14 +71,12 @@ private Rigidbody2D rb;
 			estavaMovendoVertical = false;
 			ultimoMovimento = new Vector2(horizontal, 0f);
 
-			if (horizontal > 0 && ultimaAnimacao != "direita")
+			if (horizontal > 0 )
 			{
-				ultimaAnimacao = "direita";
 				anim.SetTrigger("direita");
 			}
-			else if (horizontal < 0 && ultimaAnimacao != "esquerda")
+			else if (horizontal < 0)
 			{
-				ultimaAnimacao = "esquerda";
 				anim.SetTrigger("esquerda");
 			}
 		}
@@ -95,14 +88,12 @@ private Rigidbody2D rb;
 			estavaMovendoVertical = true;
 			ultimoMovimento = new Vector2(0f, vertical);
 			
-			if (vertical > 0 && ultimaAnimacao != "cima")
+			if (vertical > 0 )
 			{
-				ultimaAnimacao = "cima";
 				anim.SetTrigger("cima");
 			}
-			else if (vertical < 0 && ultimaAnimacao != "baixo")
+			else if (vertical < 0 )
 			{
-				ultimaAnimacao = "baixo";
 				anim.SetTrigger("baixo");
 			}
 		}
@@ -112,7 +103,6 @@ private Rigidbody2D rb;
 			rb.velocity = Vector2.zero;
 			
 			anim.enabled = false;
-			ultimaAnimacao = "parado";
 		}
 
     }

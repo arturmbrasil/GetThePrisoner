@@ -11,7 +11,6 @@ public class ControlePersonagem : MonoBehaviour
     float timerFase = 0;
     public int score = 0;
 	private Animator anim;
-	private string ultimaAnimacao;
 	private bool movendo;
 	private bool estavaMovendoVertical = false;
 	Vector2 ultimoMovimento;
@@ -45,14 +44,12 @@ public class ControlePersonagem : MonoBehaviour
 				rb.velocity = new Vector2(horizontal * currentMoveSpeed, 0);
 				ultimoMovimento = new Vector2(horizontal, 0f);
 
-				if (horizontal > 0 && ultimaAnimacao != "direita")
+				if (horizontal > 0)
 				{
-					ultimaAnimacao = "direita";
 					anim.SetTrigger("direita");
 				}
-				else if (horizontal < 0 && ultimaAnimacao != "esquerda")
+				else if (horizontal < 0)
 				{
-					ultimaAnimacao = "esquerda";
 					anim.SetTrigger("esquerda");
 				}
 			}
@@ -61,14 +58,12 @@ public class ControlePersonagem : MonoBehaviour
 				rb.velocity = new Vector2(0, vertical * currentMoveSpeed);
 				ultimoMovimento = new Vector2(0f, vertical);
 
-				if (vertical > 0 && ultimaAnimacao != "cima")
+				if (vertical > 0)
 				{
-					ultimaAnimacao = "cima";
 					anim.SetTrigger("cima");
 				}
-				else if (vertical < 0 && ultimaAnimacao != "baixo")
+				else if (vertical < 0)
 				{
-					ultimaAnimacao = "baixo";
 					anim.SetTrigger("baixo");
 				}
 			}
@@ -81,14 +76,12 @@ public class ControlePersonagem : MonoBehaviour
 			estavaMovendoVertical = false;
 			ultimoMovimento = new Vector2(horizontal, 0f);
 
-			if (horizontal > 0 && ultimaAnimacao != "direita")
+			if (horizontal > 0)
 			{
-				ultimaAnimacao = "direita";
 				anim.SetTrigger("direita");
 			}
-			else if (horizontal < 0 && ultimaAnimacao != "esquerda")
+			else if (horizontal < 0)
 			{
-				ultimaAnimacao = "esquerda";
 				anim.SetTrigger("esquerda");
 			}
 		}
@@ -100,14 +93,12 @@ public class ControlePersonagem : MonoBehaviour
 			estavaMovendoVertical = true;
 			ultimoMovimento = new Vector2(0f, vertical);
 			
-			if (vertical > 0 && ultimaAnimacao != "cima")
+			if (vertical > 0)
 			{
-				ultimaAnimacao = "cima";
 				anim.SetTrigger("cima");
 			}
-			else if (vertical < 0 && ultimaAnimacao != "baixo")
+			else if (vertical < 0)
 			{
-				ultimaAnimacao = "baixo";
 				anim.SetTrigger("baixo");
 			}
 		}
@@ -117,7 +108,6 @@ public class ControlePersonagem : MonoBehaviour
 			rb.velocity = Vector2.zero;
 			
 			anim.enabled = false;
-			ultimaAnimacao = "parado";
 		}
         timerFase += Time.deltaTime; // acréscimo de 1 a cada segundo na variável timer
 

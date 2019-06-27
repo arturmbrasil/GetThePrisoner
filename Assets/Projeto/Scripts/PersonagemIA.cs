@@ -18,7 +18,6 @@ public class PersonagemIA : MonoBehaviour {
 	Rigidbody2D rb;
 
 	private Animator anim;
-	private string ultimaAnimacao;
 	private bool movendo;
 	private bool calcularPath = true;
 	private bool estavaMovendoVertical = false;
@@ -69,7 +68,6 @@ public class PersonagemIA : MonoBehaviour {
 			rb.velocity = Vector2.zero;
 			
 			anim.enabled = false;
-			ultimaAnimacao = "parado";
 			return;
 		}
 		else
@@ -113,14 +111,12 @@ public class PersonagemIA : MonoBehaviour {
 				ultimoMovimento = new Vector2(horizontal, 0f);
 
 				
-				if (horizontal > 0 && ultimaAnimacao != "direita")
+				if (horizontal > 0 )
 				{
-					ultimaAnimacao = "direita";
 					anim.SetTrigger("direita");
 				}
-				else if (horizontal < 0 && ultimaAnimacao != "esquerda")
+				else if (horizontal < 0)
 				{
-					ultimaAnimacao = "esquerda";
 					anim.SetTrigger("esquerda");
 				}
 				
@@ -130,14 +126,12 @@ public class PersonagemIA : MonoBehaviour {
 				rb.velocity = new Vector2(0, vertical * currentMoveSpeed);
 				ultimoMovimento = new Vector2(0f, vertical);
 				
-				if (vertical > 0 && ultimaAnimacao != "cima")
+				if (vertical > 0 )
 				{
-					ultimaAnimacao = "cima";
 					anim.SetTrigger("cima");
 				}
-				else if (vertical < 0 && ultimaAnimacao != "baixo")
+				else if (vertical < 0 )
 				{
-					ultimaAnimacao = "baixo";
 					anim.SetTrigger("baixo");
 				}
 				
@@ -151,14 +145,12 @@ public class PersonagemIA : MonoBehaviour {
 			estavaMovendoVertical = false;
 			ultimoMovimento = new Vector2(horizontal, 0f);
 
-			if (horizontal > 0 && ultimaAnimacao != "direita")
+			if (horizontal > 0)
 			{
-				ultimaAnimacao = "direita";
 				anim.SetTrigger("direita");
 			}
-			else if (horizontal < 0 && ultimaAnimacao != "esquerda")
+			else if (horizontal < 0 )
 			{
-				ultimaAnimacao = "esquerda";
 				anim.SetTrigger("esquerda");
 			}
 			
@@ -171,14 +163,12 @@ public class PersonagemIA : MonoBehaviour {
 			estavaMovendoVertical = true;
 			ultimoMovimento = new Vector2(0f, vertical);
 
-			if (vertical > 0 && ultimaAnimacao != "cima")
+			if (vertical > 0  )
 			{
-				ultimaAnimacao = "cima";
 				anim.SetTrigger("cima");
 			}
-			else if (vertical < 0 && ultimaAnimacao != "baixo")
+			else if (vertical < 0 )
 			{
-				ultimaAnimacao = "baixo";
 				anim.SetTrigger("baixo");
 			}
 			
