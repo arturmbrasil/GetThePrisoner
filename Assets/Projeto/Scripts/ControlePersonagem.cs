@@ -127,7 +127,7 @@ public class ControlePersonagem : MonoBehaviour
 				int score = PlayerPrefs.GetInt("score");
 				score = score + 100; //bandido ganha 100 pontos de bonus
 				PlayerPrefs.SetInt("score", score);
-				SceneManager.LoadScene("BandidoFugiu");
+				SceneManager.LoadScene("PrendeuInocente");
 			}
 		}
     }

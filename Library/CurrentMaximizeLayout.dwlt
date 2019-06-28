@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 536
+  controlID: 273
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 537
+  controlID: 274
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 506
+  controlID: 275
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,7 +205,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: b8b3ffff96baffffaac0ffffdcfbffff00000000
+    m_ExpandedIDs: e4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -287,9 +287,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 17.586153, y: -3.351468, z: 1559.8579}
+    m_Target: {x: 16.581038, y: -9.51453, z: 983.65533}
     speed: 2
-    m_Value: {x: 17.586153, y: -3.351468, z: 1559.8579}
+    m_Value: {x: 16.581038, y: -9.51453, z: 983.65533}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -321,9 +321,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 77.68085
+    m_Target: 46.527542
     speed: 2
-    m_Value: 77.68085
+    m_Value: 46.527542
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -407,8 +407,8 @@ MonoBehaviour:
     y: 603
     width: 1531
     height: 344
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -453,20 +453,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Projeto/Scripts
+    - Assets/Projeto/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Projeto/Scripts
+  - Assets/Projeto/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Documentos\11 - Projeto Nunes\11 - Udemy\Github\projeto-jogos
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: d21b0000
-    m_LastClickedID: 7122
-    m_ExpandedIDs: 00000000e2090000a60f0000b0150000ba15000044160000da1b0000501d0000761f00003223000000ca9a3b
+    m_SelectedIDs: 3a0b0000
+    m_LastClickedID: 2874
+    m_ExpandedIDs: 00000000d60900009a0f0000a4150000ae15000038160000ce1b0000441d00006a1f00002623000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -494,7 +494,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2090000a60f0000b0150000ba15000044160000da1b0000501d0000761f00003223000000ca9a3b
+    m_ExpandedIDs: 00000000d60900009a0f0000a4150000ae15000038160000ce1b0000441d00006a1f00002623000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,8 +740,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
