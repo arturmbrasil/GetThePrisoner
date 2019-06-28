@@ -21,6 +21,9 @@ public class Coletavel : MonoBehaviour {
 	void Pegar(){
 		//Soma valor do item na pontuacao do bandido
 		int score = PlayerPrefs.GetInt("score");
+		score = score + valor;
+		PlayerPrefs.SetInt("score", score);
+		
 		Destroy(gameObject);
 	}
 

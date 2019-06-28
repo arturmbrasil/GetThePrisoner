@@ -47,10 +47,10 @@ public class PersonagemIA : MonoBehaviour {
 	}
 	
 	void OnPathComplete(Path p){
-		if(!p.error){
+		//if(!p.error){
 			path = p;
 			currentWaypoint = 0;
-		}
+		//}
 	}
 	// Update is called once per frame
 	void Update () {

@@ -14,6 +14,8 @@ public class ControleFase : MonoBehaviour {
 
 		//SCORE ZERADO
 		PlayerPrefs.SetInt("score", 0);
+
+		UpdateCollisionLayerMatrix();
 	}
 
 	void CriaPersonagens(){
@@ -91,4 +93,47 @@ public class ControleFase : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	//Script que faz o Layer Collision Matrix nao ignorar colliders com trigger
+	public static void UpdateCollisionLayerMatrix()
+	{
+		List<Tuple<Collider2D, Collider2D>> collidersToUpdate = new List<Tuple<Collider2D, Collider2D>>();
+		Collider2D[] colliders = FindObjectsOfType(typeof(Collider2D)) as Collider2D[];
+		if (colliders == null) return;
+	
+		foreach (Collider2D colliderA in colliders)
+		{
+			foreach (Collider2D colliderB in colliders)
+			{
+				if (colliderA.gameObject == colliderB.gameObject) continue;
+						
+				if (Physics2D.GetIgnoreLayerCollision(colliderA.gameObject.layer, colliderB.gameObject.layer))
+				{
+					collidersToUpdate.Add(new Tuple<Collider2D, Collider2D>(colliderA, colliderB));
+				}
+			}
+		}
+	
+		foreach (Tuple<Collider2D, Collider2D> tuple in collidersToUpdate)
+		{
+			Physics2D.IgnoreLayerCollision(tuple.ItemA.gameObject.layer, tuple.ItemB.gameObject.layer, false);
+			if (!tuple.ItemA.isTrigger && !tuple.ItemB.isTrigger)
+			{
+				Physics2D.IgnoreCollision(tuple.ItemA, tuple.ItemB, true);
+			}
+		}
+	}
 }
+
+public class Tuple<T, U>
+{
+    public T ItemA { get; set; }
+    public U ItemB { get; set; }
+
+    public Tuple(T itemA, U itemB)
+    {
+        ItemA = itemA;
+        ItemB = itemB;
+    }
+}
+

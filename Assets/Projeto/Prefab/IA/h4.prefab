@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 61141696146533218}
   - component: {fileID: 114586123534609844}
   - component: {fileID: 114187298957768394}
+  - component: {fileID: 58984484040983646}
   m_Layer: 9
   m_Name: h4
   m_TagString: IA
@@ -65,6 +66,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!58 &58984484040983646
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1405856974510806}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.46875
 --- !u!61 &61141696146533218
 BoxCollider2D:
   m_ObjectHideFlags: 1

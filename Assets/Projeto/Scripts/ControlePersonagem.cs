@@ -9,11 +9,13 @@ public class ControlePersonagem : MonoBehaviour
     private Rigidbody2D rb;
     public float velocidade;
     float timerFase = 0;
-    public int score = 0;
 	private Animator anim;
 	private bool movendo;
 	private bool estavaMovendoVertical = false;
 	Vector2 ultimoMovimento;
+	bool prenderBandido = false;
+	bool prenderIA = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -111,14 +113,45 @@ public class ControlePersonagem : MonoBehaviour
 		}
         timerFase += Time.deltaTime; // acréscimo de 1 a cada segundo na variável timer
 
+		if (Input.GetKeyDown(KeyCode.RightShift)){
+			print("clicou shift");
+			print("prender bandido:" + prenderBandido);
+			print("prender ia:" + prenderIA);
+
+			if (prenderBandido)
+			{
+				SceneManager.LoadScene("CapturaBandido");
+			}
+			else if (prenderIA)
+			{
+				int score = PlayerPrefs.GetInt("score");
+				score = score + 100; //bandido ganha 100 pontos de bonus
+				PlayerPrefs.SetInt("score", score);
+				SceneManager.LoadScene("BandidoFugiu");
+			}
+		}
     }
 
-    void OnTriggerEnter2D(Collider2D obj)
-    {
-        
-    }
-    public void addScore(int pontuacao)
-    {
-        
-    }
+	private void OnTriggerEnter2D(Collider2D other) {
+		if (other.tag == "Bandido")
+		{
+
+			prenderBandido = true;
+			print("prender bandido!!!!!!!!!!!!!!!!!!!!!!!!!!:" + prenderBandido);
+		}
+		if (other.tag == "IA"){
+			prenderIA = true;
+		}
+	}
+	void OnTriggerExit2D(Collider2D other)
+	{
+		if (other.tag == "Bandido")
+		{
+			prenderBandido = false;
+		}
+		if (other.tag == "IA"){
+			prenderIA = false;
+		}
+	}
+
 }
