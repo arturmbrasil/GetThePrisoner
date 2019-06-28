@@ -24,9 +24,10 @@ GameObject:
   - component: {fileID: 50683986716175536}
   - component: {fileID: 61598765155816324}
   - component: {fileID: 114274270511984654}
+  - component: {fileID: 58539370807554098}
   m_Layer: 9
   m_Name: j8
-  m_TagString: Untagged
+  m_TagString: Bandido
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,6 +65,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!58 &58539370807554098
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1671789179100990}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.5
 --- !u!61 &61598765155816324
 BoxCollider2D:
   m_ObjectHideFlags: 1

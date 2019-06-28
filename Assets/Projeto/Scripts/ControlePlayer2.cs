@@ -107,10 +107,14 @@ private Rigidbody2D rb;
 
     }
 
-    void OnTriggerEnter2D(Collider2D obj)
-    {
-        
-    }
+
+
+	//private void OnTriggerEnter2D(Collider2D other) {		
+    //    if (Input.GetKeyDown(KeyCode.Q) && other.tag == "Coletavel"){
+	//		Destroy(other);
+	//	}
+	//}
+
     public void addScore(int pontuacao)
     {
         

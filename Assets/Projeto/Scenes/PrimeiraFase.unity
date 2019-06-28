@@ -519,6 +519,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &51537955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 51537956}
+  - component: {fileID: 51537957}
+  - component: {fileID: 51537958}
+  m_Layer: 0
+  m_Name: Saida4
+  m_TagString: Saida
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &51537956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51537955}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -17.5, y: 43.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1937901372}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &51537957
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51537955}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -10.410725, y: 2.0025396}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 39.041252, y: 16.969915}
+  m_EdgeRadius: 0
+--- !u!114 &51537958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51537955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0818e3bb4c2ba4965a1b931612f44cf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &69629362
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,9 +843,10 @@ GameObject:
   - component: {fileID: 86349873}
   - component: {fileID: 86349872}
   - component: {fileID: 86349874}
+  - component: {fileID: 86349875}
   m_Layer: 0
   m_Name: coletavel30
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -869,6 +936,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0625}
   m_EdgeRadius: 0
+--- !u!114 &86349875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86349871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &88114626
 Prefab:
   m_ObjectHideFlags: 0
@@ -1179,7 +1257,7 @@ MonoBehaviour:
     seed: 0
     pivotPointRoot: {fileID: 0}
     spreadOutCount: 1
-  showGraphs: 1
+  showGraphs: 0
 --- !u!4 &107558845
 Transform:
   m_ObjectHideFlags: 0
@@ -1324,9 +1402,10 @@ GameObject:
   - component: {fileID: 120547361}
   - component: {fileID: 120547360}
   - component: {fileID: 120547362}
+  - component: {fileID: 120547363}
   m_Layer: 0
   m_Name: coletavel31
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1416,6 +1495,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6875, y: 1.0625}
   m_EdgeRadius: 0
+--- !u!114 &120547363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 120547359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &123119798 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4036696869328868, guid: bd46eae3aa7084b4ebeee17b65c9062f,
@@ -64399,6 +64489,72 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd46eae3aa7084b4ebeee17b65c9062f, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &293629736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 293629737}
+  - component: {fileID: 293629738}
+  - component: {fileID: 293629739}
+  m_Layer: 0
+  m_Name: Saida2
+  m_TagString: Saida
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &293629737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293629736}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.37, y: -18.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1937901372}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &293629738
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293629736}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -12.280317, y: 4.393962}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 42.780445, y: 9.787924}
+  m_EdgeRadius: 0
+--- !u!114 &293629739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293629736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0818e3bb4c2ba4965a1b931612f44cf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &297171743
 GameObject:
   m_ObjectHideFlags: 0
@@ -64752,9 +64908,10 @@ GameObject:
   - component: {fileID: 340134824}
   - component: {fileID: 340134823}
   - component: {fileID: 340134825}
+  - component: {fileID: 340134826}
   m_Layer: 0
   m_Name: coletavel26
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64844,6 +65001,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0625, y: 1.125}
   m_EdgeRadius: 0
+--- !u!114 &340134826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 340134822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &343176616 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4036696869328868, guid: bd46eae3aa7084b4ebeee17b65c9062f,
@@ -64889,9 +65057,10 @@ GameObject:
   - component: {fileID: 350843315}
   - component: {fileID: 350843316}
   - component: {fileID: 350843317}
+  - component: {fileID: 350843318}
   m_Layer: 0
   m_Name: coletavel14
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64981,6 +65150,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1875, y: 5.537507}
   m_EdgeRadius: 0
+--- !u!114 &350843318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 350843314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &355190689 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4036696869328868, guid: bd46eae3aa7084b4ebeee17b65c9062f,
@@ -65789,9 +65969,10 @@ GameObject:
   - component: {fileID: 411931508}
   - component: {fileID: 411931507}
   - component: {fileID: 411931509}
+  - component: {fileID: 411931510}
   m_Layer: 0
   m_Name: coletavel9
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65881,6 +66062,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1875, y: 4.9044614}
   m_EdgeRadius: 0
+--- !u!114 &411931510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 411931506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &413965324
 GameObject:
   m_ObjectHideFlags: 0
@@ -66359,9 +66551,10 @@ GameObject:
   - component: {fileID: 448714238}
   - component: {fileID: 448714240}
   - component: {fileID: 448714239}
+  - component: {fileID: 448714241}
   m_Layer: 0
   m_Name: coletavel11
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66451,6 +66644,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &448714241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 448714237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &463565152 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4540285252754826, guid: 7aeece643a4294b5f8e2cb6f5f0f5593,
@@ -66610,9 +66814,10 @@ GameObject:
   - component: {fileID: 495294262}
   - component: {fileID: 495294264}
   - component: {fileID: 495294263}
+  - component: {fileID: 495294265}
   m_Layer: 0
   m_Name: coletavel22
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66702,6 +66907,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &495294265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495294261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &505583452
 GameObject:
   m_ObjectHideFlags: 0
@@ -67137,9 +67353,10 @@ GameObject:
   - component: {fileID: 551357761}
   - component: {fileID: 551357762}
   - component: {fileID: 551357763}
+  - component: {fileID: 551357764}
   m_Layer: 0
   m_Name: coletavel21
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67229,6 +67446,83 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1875, y: 5.2391844}
   m_EdgeRadius: 0
+--- !u!114 &551357764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 551357760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &564553518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 564553519}
+  - component: {fileID: 564553520}
+  - component: {fileID: 564553521}
+  m_Layer: 0
+  m_Name: Saida1
+  m_TagString: Saida
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &564553519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564553518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.23, y: -18.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1937901372}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &564553520
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564553518}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.1856618, y: 4.9937487}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11.848477, y: 10.987497}
+  m_EdgeRadius: 0
+--- !u!114 &564553521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564553518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0818e3bb4c2ba4965a1b931612f44cf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &566194207 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4498720195425228, guid: cf5b8226f1c2849959175560d014daa0,
@@ -67623,9 +67917,10 @@ GameObject:
   - component: {fileID: 614495869}
   - component: {fileID: 614495868}
   - component: {fileID: 614495870}
+  - component: {fileID: 614495871}
   m_Layer: 0
   m_Name: coletavel3
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67715,6 +68010,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.625, y: 3.371882}
   m_EdgeRadius: 0
+--- !u!114 &614495871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614495867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &618121516
 GameObject:
   m_ObjectHideFlags: 0
@@ -67800,9 +68106,10 @@ GameObject:
   - component: {fileID: 631785829}
   - component: {fileID: 631785828}
   - component: {fileID: 631785830}
+  - component: {fileID: 631785831}
   m_Layer: 0
   m_Name: coletavel4
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67892,6 +68199,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3125, y: 3.811091}
   m_EdgeRadius: 0
+--- !u!114 &631785831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 631785827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &633527600
 GameObject:
   m_ObjectHideFlags: 0
@@ -68003,9 +68321,10 @@ GameObject:
   - component: {fileID: 639831251}
   - component: {fileID: 639831253}
   - component: {fileID: 639831252}
+  - component: {fileID: 639831254}
   m_Layer: 0
   m_Name: coletavel12
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68033,7 +68352,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.12636757}
@@ -68095,6 +68414,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &639831254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 639831250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &645753799
 GameObject:
   m_ObjectHideFlags: 0
@@ -81487,9 +81817,10 @@ GameObject:
   - component: {fileID: 764459655}
   - component: {fileID: 764459656}
   - component: {fileID: 764459657}
+  - component: {fileID: 764459658}
   m_Layer: 0
   m_Name: coletavel5
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81579,6 +81910,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1875, y: 1.3125}
   m_EdgeRadius: 0
+--- !u!114 &764459658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 764459654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &765496495
 GameObject:
   m_ObjectHideFlags: 0
@@ -82363,9 +82705,10 @@ GameObject:
   - component: {fileID: 879640416}
   - component: {fileID: 879640415}
   - component: {fileID: 879640417}
+  - component: {fileID: 879640418}
   m_Layer: 0
   m_Name: coletavel34
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82439,7 +82782,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -82455,6 +82798,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.375, y: 0.6875}
   m_EdgeRadius: 0
+--- !u!114 &879640418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 879640414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &907831956
 GameObject:
   m_ObjectHideFlags: 0
@@ -82758,9 +83112,10 @@ GameObject:
   - component: {fileID: 921398525}
   - component: {fileID: 921398524}
   - component: {fileID: 921398526}
+  - component: {fileID: 921398527}
   m_Layer: 0
   m_Name: coletavel32
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82834,7 +83189,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -82850,6 +83205,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9375, y: 1.9375}
   m_EdgeRadius: 0
+--- !u!114 &921398527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 921398523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &937673216
 Prefab:
   m_ObjectHideFlags: 0
@@ -83261,9 +83627,10 @@ GameObject:
   - component: {fileID: 1011499971}
   - component: {fileID: 1011499972}
   - component: {fileID: 1011499973}
+  - component: {fileID: 1011499974}
   m_Layer: 0
   m_Name: coletavel19
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83353,6 +83720,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.3844714}
   m_EdgeRadius: 0
+--- !u!114 &1011499974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011499970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1011830279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4596296655606150, guid: e2e45b3228a894e118d03213beb40534,
@@ -83937,9 +84315,10 @@ GameObject:
   - component: {fileID: 1114346209}
   - component: {fileID: 1114346208}
   - component: {fileID: 1114346210}
+  - component: {fileID: 1114346211}
   m_Layer: 0
   m_Name: coletavel35
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84029,6 +84408,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.375, y: 3.6439762}
   m_EdgeRadius: 0
+--- !u!114 &1114346211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1114346207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1126158205
 GameObject:
   m_ObjectHideFlags: 0
@@ -84039,9 +84429,10 @@ GameObject:
   - component: {fileID: 1126158206}
   - component: {fileID: 1126158208}
   - component: {fileID: 1126158207}
+  - component: {fileID: 1126158209}
   m_Layer: 0
   m_Name: coletavel24
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84131,6 +84522,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1126158209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1126158205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1130701343
 GameObject:
   m_ObjectHideFlags: 0
@@ -84141,9 +84543,10 @@ GameObject:
   - component: {fileID: 1130701344}
   - component: {fileID: 1130701346}
   - component: {fileID: 1130701345}
+  - component: {fileID: 1130701347}
   m_Layer: 0
   m_Name: coletavel10
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84233,6 +84636,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1130701347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1130701343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1153856632 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4036696869328868, guid: bd46eae3aa7084b4ebeee17b65c9062f,
@@ -84400,9 +84814,10 @@ GameObject:
   - component: {fileID: 1204312719}
   - component: {fileID: 1204312721}
   - component: {fileID: 1204312720}
+  - component: {fileID: 1204312722}
   m_Layer: 0
   m_Name: coletavel25
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84492,6 +84907,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1204312722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1204312718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1204853019 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4036696869328868, guid: bd46eae3aa7084b4ebeee17b65c9062f,
@@ -84507,9 +84933,10 @@ GameObject:
   - component: {fileID: 1211949202}
   - component: {fileID: 1211949201}
   - component: {fileID: 1211949203}
+  - component: {fileID: 1211949204}
   m_Layer: 0
   m_Name: coletavel33
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84599,6 +85026,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.9375, y: 1.75}
   m_EdgeRadius: 0
+--- !u!114 &1211949204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1211949200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1218013317
 GameObject:
   m_ObjectHideFlags: 0
@@ -85170,9 +85608,10 @@ GameObject:
   - component: {fileID: 1321068122}
   - component: {fileID: 1321068121}
   - component: {fileID: 1321068123}
+  - component: {fileID: 1321068124}
   m_Layer: 0
   m_Name: coletavel27
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85262,6 +85701,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9375, y: 3.856907}
   m_EdgeRadius: 0
+--- !u!114 &1321068124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1321068120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1323765450
 GameObject:
   m_ObjectHideFlags: 0
@@ -85681,9 +86131,10 @@ GameObject:
   - component: {fileID: 1370962064}
   - component: {fileID: 1370962066}
   - component: {fileID: 1370962065}
+  - component: {fileID: 1370962067}
   m_Layer: 0
   m_Name: coletavel13
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85773,6 +86224,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1370962067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1370962063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1373929819
 GameObject:
   m_ObjectHideFlags: 0
@@ -86043,9 +86505,10 @@ GameObject:
   - component: {fileID: 1395074221}
   - component: {fileID: 1395074222}
   - component: {fileID: 1395074223}
+  - component: {fileID: 1395074224}
   m_Layer: 0
   m_Name: coletavel18
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86135,6 +86598,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.7861934}
   m_EdgeRadius: 0
+--- !u!114 &1395074224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395074220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1402887495
 GameObject:
   m_ObjectHideFlags: 0
@@ -86347,9 +86821,10 @@ GameObject:
   - component: {fileID: 1409376753}
   - component: {fileID: 1409376752}
   - component: {fileID: 1409376754}
+  - component: {fileID: 1409376755}
   m_Layer: 0
   m_Name: coletavel7
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86439,6 +86914,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.094766}
   m_EdgeRadius: 0
+--- !u!114 &1409376755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1409376751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1422657707 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4036696869328868, guid: bd46eae3aa7084b4ebeee17b65c9062f,
@@ -86606,9 +87092,10 @@ GameObject:
   - component: {fileID: 1464759095}
   - component: {fileID: 1464759097}
   - component: {fileID: 1464759096}
+  - component: {fileID: 1464759098}
   m_Layer: 0
   m_Name: coletavel23
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86698,6 +87185,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1464759098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1464759094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1470745378
 GameObject:
   m_ObjectHideFlags: 0
@@ -86985,9 +87483,10 @@ GameObject:
   - component: {fileID: 1491093688}
   - component: {fileID: 1491093687}
   - component: {fileID: 1491093689}
+  - component: {fileID: 1491093690}
   m_Layer: 0
   m_Name: coletavel28
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87077,6 +87576,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0625}
   m_EdgeRadius: 0
+--- !u!114 &1491093690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1491093686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1493773781
 GameObject:
   m_ObjectHideFlags: 0
@@ -88394,9 +88904,10 @@ GameObject:
   - component: {fileID: 1564714457}
   - component: {fileID: 1564714458}
   - component: {fileID: 1564714459}
+  - component: {fileID: 1564714460}
   m_Layer: 0
   m_Name: coletavel16
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88486,6 +88997,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.625, y: 3.313364}
   m_EdgeRadius: 0
+--- !u!114 &1564714460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1564714456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1574499661
 Prefab:
   m_ObjectHideFlags: 0
@@ -88542,9 +89064,10 @@ GameObject:
   - component: {fileID: 1583206758}
   - component: {fileID: 1583206759}
   - component: {fileID: 1583206760}
+  - component: {fileID: 1583206761}
   m_Layer: 0
   m_Name: coletavel20
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88634,6 +89157,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 5.0520144}
   m_EdgeRadius: 0
+--- !u!114 &1583206761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1583206757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1586864731
 GameObject:
   m_ObjectHideFlags: 0
@@ -118332,9 +118866,10 @@ GameObject:
   - component: {fileID: 1729694980}
   - component: {fileID: 1729694979}
   - component: {fileID: 1729694981}
+  - component: {fileID: 1729694982}
   m_Layer: 0
   m_Name: coletavel8
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118424,6 +118959,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 4.8546}
   m_EdgeRadius: 0
+--- !u!114 &1729694982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1729694978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1745023841
 GameObject:
   m_ObjectHideFlags: 0
@@ -118434,9 +118980,10 @@ GameObject:
   - component: {fileID: 1745023843}
   - component: {fileID: 1745023842}
   - component: {fileID: 1745023844}
+  - component: {fileID: 1745023845}
   m_Layer: 0
   m_Name: coletavel2
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118526,6 +119073,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9375, y: 4.575301}
   m_EdgeRadius: 0
+--- !u!114 &1745023845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1745023841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1750052823
 GameObject:
   m_ObjectHideFlags: 0
@@ -118536,9 +119094,10 @@ GameObject:
   - component: {fileID: 1750052824}
   - component: {fileID: 1750052825}
   - component: {fileID: 1750052826}
+  - component: {fileID: 1750052827}
   m_Layer: 0
   m_Name: coletavel17
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118628,6 +119187,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3125, y: 3.3758636}
   m_EdgeRadius: 0
+--- !u!114 &1750052827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750052823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1752610688
 GameObject:
   m_ObjectHideFlags: 0
@@ -119529,9 +120099,10 @@ GameObject:
   - component: {fileID: 1926753529}
   - component: {fileID: 1926753528}
   - component: {fileID: 1926753530}
+  - component: {fileID: 1926753531}
   m_Layer: 0
   m_Name: coletavel29
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119621,6 +120192,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9375, y: 3.5303574}
   m_EdgeRadius: 0
+--- !u!114 &1926753531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1926753527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1929355134
 GameObject:
   m_ObjectHideFlags: 0
@@ -119732,9 +120314,10 @@ GameObject:
   - component: {fileID: 1929486910}
   - component: {fileID: 1929486909}
   - component: {fileID: 1929486911}
+  - component: {fileID: 1929486912}
   m_Layer: 0
   m_Name: coletavel1
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119824,6 +120407,49 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1875, y: 5.010704}
   m_EdgeRadius: 0
+--- !u!114 &1929486912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929486908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1937901371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1937901372}
+  m_Layer: 0
+  m_Name: Saidas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1937901372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937901371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.817277, y: -15.374542, z: -0.3359375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 564553519}
+  - {fileID: 293629737}
+  - {fileID: 2076513698}
+  - {fileID: 51537956}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1946345268
 Prefab:
   m_ObjectHideFlags: 0
@@ -126784,6 +127410,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2076513697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2076513698}
+  - component: {fileID: 2076513699}
+  - component: {fileID: 2076513700}
+  m_Layer: 0
+  m_Name: Saida3
+  m_TagString: Saida
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2076513698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2076513697}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -43.6, y: -18.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1937901372}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2076513699
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2076513697}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.5257826, y: 35.629807}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.528719, y: 72.25961}
+  m_EdgeRadius: 0
+--- !u!114 &2076513700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2076513697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0818e3bb4c2ba4965a1b931612f44cf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2080115865
 GameObject:
   m_ObjectHideFlags: 0
@@ -126794,9 +127486,10 @@ GameObject:
   - component: {fileID: 2080115867}
   - component: {fileID: 2080115866}
   - component: {fileID: 2080115868}
+  - component: {fileID: 2080115869}
   m_Layer: 0
   m_Name: coletavel6
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126886,6 +127579,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 4.702918}
   m_EdgeRadius: 0
+--- !u!114 &2080115869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080115865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2086875818
 Prefab:
   m_ObjectHideFlags: 0
@@ -127142,9 +127846,10 @@ GameObject:
   - component: {fileID: 2122393739}
   - component: {fileID: 2122393740}
   - component: {fileID: 2122393741}
+  - component: {fileID: 2122393742}
   m_Layer: 0
   m_Name: coletavel15
-  m_TagString: Untagged
+  m_TagString: Coletavel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127234,6 +127939,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9375, y: 5.0236526}
   m_EdgeRadius: 0
+--- !u!114 &2122393742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2122393738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495d07ab6d3aa4529824f89cb68ecddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2129891534
 GameObject:
   m_ObjectHideFlags: 0

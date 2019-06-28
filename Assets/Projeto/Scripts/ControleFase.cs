@@ -12,6 +12,8 @@ public class ControleFase : MonoBehaviour {
 	void Start () {
 		CriaPersonagens();
 
+		//SCORE ZERADO
+		PlayerPrefs.SetInt("score", 0);
 	}
 
 	void CriaPersonagens(){

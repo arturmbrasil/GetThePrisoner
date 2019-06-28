@@ -57,7 +57,6 @@ public class PersonagemIA : MonoBehaviour {
 		if(calcularPath){
 			float aleatorio = Random.Range(0f, 5f);
 			StartCoroutine(pathCooldown(aleatorio));				
-			print("aleatorioooo: "+aleatorio);
 		}
 		if (path == null)
 			return;
