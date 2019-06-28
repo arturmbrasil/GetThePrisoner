@@ -60,6 +60,7 @@
      <Compile Include="Assets\Projeto\Scripts\ControlePlayer2.cs" />
      <Compile Include="Assets\Projeto\Scripts\ControlerContagemRegressiva.cs" />
      <Compile Include="Assets\Projeto\Scripts\IniciarGame.cs" />
+     <Compile Include="Assets\Projeto\Scripts\MostrarPontuacao.cs" />
      <Compile Include="Assets\Projeto\Scripts\PersonagemIA.cs" />
      <Compile Include="Assets\Projeto\Scripts\Saida.cs" />
      <Compile Include="Assets\Projeto\Scripts\SelecaoBandido.cs" />
